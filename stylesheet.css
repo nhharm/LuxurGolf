@@ -1,0 +1,716 @@
+/*
+Theme Name: LuxurGolf
+Theme URI: 
+Author: NHH
+Author URI: n/a
+Description: LuxurGolf Newsletter
+Version: 1.0
+License: na
+License URI: na
+Text Domain: luxurgolfnewsletter
+Tags: 
+*/
+
+
+/**Body Style**/
+    body{
+    font-family:"verdana", "serif";
+    width:100%;
+    overflow-x:none;
+    margin:0;
+    background-color:#ffffff;
+    }
+    body a{
+    text-decoration: none;
+    cursor:pointer
+    }
+    
+    /**Navigation Bar Style**/
+    nav{
+    z-index:2000;
+    position: absolute;
+    padding-top:10px;
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    text-align: right;
+    }
+    
+    nav a{
+    padding-right:38px;
+    padding-top:3px;
+    padding-bottom:1px;
+    padding-left:38px;
+    color:#ffffff;
+    font-family: "Bebas Neue","verdana","serif";
+    font-weight:bold;
+    text-decoration:none;
+    font-size:26px;
+    letter-spacing:2px;
+    }
+    
+    nav a:hover{
+    color:#2BE5A0;
+    }
+
+    nav p{
+        text-align:center;
+    }
+    
+    nav ul{
+        margin:0;
+        padding-top:1.8%;
+        margin-right:6%;
+    }
+    nav li{
+        display: inline-block;
+        text-align:center;
+        padding-right:50px;
+    }
+
+    #logo{
+    float:left;
+    padding-left:5%;
+    }
+    
+    #logo img{
+    padding-top:6px;
+    width:180px;
+    height:auto;
+    }
+    
+    #sign_up_nav{
+        background-color:#2BE5A0;
+    text-align:center;
+    transition: 0.2s;
+    border-radius:3px;
+    border-color:none;
+    }
+    #sign_up_nav:hover{
+    padding-left:22px;
+    padding-right:22px;
+    transition: 0.2s;
+    color:white;
+    }
+    
+    /**Home Index Image Container**/
+    .home_container{
+    background-color: #0A329B;
+    width: 100%;
+    height:1000px;
+    }
+    .hero{
+    width: 100%;
+    z-index: -1000;
+    }
+    .hero img{
+    opacity: 50%;
+    height:1000px;
+    width: 100%;
+    z-index: -1000;
+    object-fit: cover;
+    }
+    .logo_text_home{
+    top:30%;
+    left:50%;
+    position: absolute;
+    height:auto;
+    margin:0 auto;
+    text-align:center;
+    }
+
+    .logo_text_home h1{
+    width:100%;
+    margin-top:2%;
+    color:#ffffff;
+    font-family: "Bebas Neue","verdana","serif";
+    font-size: 40px;
+    letter-spacing:5px;
+    }
+    
+    .logo_text_home p{
+    margin-top:-1%;
+    width:100%;
+    color:#ffffff;
+    font-size:18px;
+    }
+    
+    #home_logo{
+    -webkit-filter: drop-shadow(0px 2px 2px #222);
+    filter: drop-shadow(0px 2px 2px #222);
+    }
+    
+    #home_signup{
+        background-color:#2BE5A0;
+        width:46%;
+        transition: 0.1s;
+        margin: 0 auto;
+        border-radius:5px;
+        }
+    
+        #home_signup a{
+         color:white;
+         transition: 0.2s;
+       
+        }
+        #home_signup h4{
+        font-weight:200;
+        text-align:center;
+        padding:10px;
+        color:#ffffff;
+        font-size:18px;
+        transition: 0.2s;
+        }
+        #home_signup:hover{
+            transition: 0.2s;
+            width:36%;
+        }
+        #home_signup:hover a{
+            transition: 0.2s;
+        }
+
+    /*sign-up/define your style container*/
+    .define_style_signup{
+        width:100%;
+        display:inline-flex;
+        flex-wrap:wrap;
+        text-align:center;
+    }
+    .call_to_action_text{
+        padding:6% 0;
+        margin-left:3%;
+        z-index:4;
+        width:40%;
+    }
+    .call_to_action_text h1{
+        text-align:center;
+        color:#0A329B;
+        font-family: "Bebas Neue","verdana","serif";
+        font-size:85px;
+        line-height:75px;
+        letter-spacing:14px;
+        font-weight:bolder;
+    }
+    .call_to_action_text h2{
+        font-size:25px;
+        color:#636464;
+        padding-top:1%;
+    }
+    .call_to_action_text p{
+        font-size:15px;
+        line-height:25px;
+        color:#636464;
+    }
+    #middle_signup{
+    background-color:#2BE5A0;
+    width:32%;
+    transition: 0.1s;
+    margin: 0 auto;
+    border-radius:5px;
+    }
+
+    #middle_signup a{
+     color:white;
+     transition: 0.2s;
+   
+    }
+    #middle_signup h4{
+    font-weight:200;
+    padding:10px;
+    color:#ffffff;
+    font-size:18px;
+    transition: 0.2s;
+    }
+    #middle_signup:hover{
+        transition: 0.2s;
+        width:25%;
+
+    }
+    #middle_signup:hover a{
+      transition: 0.2s;
+    }
+    /*computer and blue background block*/
+    .define_style_block{
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    }
+
+    #computer{
+    }
+    
+    /*past_savings_block*/
+.past_savings{
+    width:100%;
+    background-color:#2BE5A0;
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin:0 auto;
+   }
+
+ .past_savings_text{
+    width:43%;
+    padding:0 1% 0 4%;
+    font-size:16px;
+    line-height:45px;
+    color:white;
+    margin-top:3%;
+   }
+
+.past_savings_text h2{
+    text-align:left;
+    color:#0A329B;
+    font-family: "Bebas Neue","verdana","serif";
+    font-size:45px;
+    margin-bottom:-1%;
+    letter-spacing:8px;
+    font-weight:bolder;
+   }
+#many_more{
+    font-family: "Bebas Neue","verdana","serif";
+    font-size:35px;
+    font-weight:bolder;
+    letter-spacing:3px;
+    line-height:5px;
+    margin-top:4%;
+   }
+
+.savings_photos{
+    width: 52%;
+    height: 500px;
+}
+
+.savings_photos_img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    text-align: center;
+}
+
+/*Email_Example_block*/
+.email_example{
+    background-color:#0A329B;
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin:0 auto;
+   }
+   .email_example_text{
+    width:44%;
+    padding-left:4%;
+    font-size:16px;
+    line-height:45px;
+    color:white;
+     margin-top:3%;
+   }
+
+   .email_example_text h2{
+    text-align:left;
+    color:#2BE5A0;
+    font-family: "Bebas Neue","verdana","serif";
+    font-size:45px;
+    margin-bottom:-1%;
+    letter-spacing:8px;
+    font-weight:bolder;
+   }
+ 
+   #email_example_signup{
+    background-color:#2BE5A0;
+    width:45%;
+    transition: 0.1s;
+    margin: 0 auto;
+    border-radius:5px;
+    }
+
+    #email_example_signup a{
+     color:white;
+     transition: 0.2s;
+    }
+
+    #email_example_signup h4{
+    font-weight:200;
+    text-align:center;
+    padding:6px;
+    color:#ffffff;
+    font-size:18px;
+    transition: 0.2s;
+    }
+
+    #email_example_signup:hover{
+    transition: 0.2s;
+    width:35%;
+    }
+
+    #email_example_signupr a{
+    transition: 0.2s;
+    }
+
+    .email_example_photo{
+    width: 48%;
+    height: 500px;
+    }
+
+    .email_example_img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    text-align: center;
+}
+ 
+   /*Bottom sign up container*/
+   .bottom_container{
+    background-image: url("LuxurGolf/Images/Stock Images/parker-ulry-D9-MY3cVe_I-unsplash (1).jpg");
+    background-repeat: no-repeat;
+    background-color: #0A329B;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height:1000px;
+    margin-top:-0.2%;
+    }
+    
+    #signup_text{
+    margin:0 auto;
+    color:#ffffff;
+    font-family: "Bebas Neue","verdana","serif";
+    width:100%;
+    padding-top: 5%;
+    text-align:center;
+    }
+
+    #signup_text  h1{
+    font-size: 70px;
+    letter-spacing:2px; 
+    margin: 0;
+    }
+    
+    #signup_text p{
+    font-size:18px;
+    padding-bottom:1%;
+    }
+    
+    /**Bottom Hero Sign-up Form**/
+    #bottom_hero_form{
+    width:25%;
+    margin:0 auto;
+    font-family:"Bebas Neue","verdana","serif";
+    font-size:30px;
+    font-weight:600;
+    z-index:1;
+    color:white
+    }
+    input[type=text] {
+    width:100%;
+    font-family:"verdana", "serif";
+    padding: 12px 20px;
+    margin: 5%;
+    color:black;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+
+    }
+input[type=text]:focus {
+  border: 3px solid #2BE5A0;
+}
+#submit{
+    background-color: #2BE5A0;
+    border: none;
+    color: white;
+    font-family: "verdana","serif";
+    font-size: 16px;
+    width: 100%;
+    margin-left: 5%;
+    padding: 10px 10px;
+    margin-top: 5%;
+    cursor: pointer;
+  }
+  #submit:hover{
+    background-color:#0A329B;
+    transition:.2s;
+  }
+
+    /**Footer Style**/
+footer{
+    width:100%;
+    height:200px;
+    background-color:#2BE5A0;
+    padding-top:3%;
+    padding-bottom:2%;
+}
+    .footer_logo{
+    float:left;
+    margin:0 auto;
+    padding-left:2%;
+    }
+    .footer_logo img{
+    width:75%;
+    }
+.contact {
+    text-align:right;
+    padding-right:2%;
+    float:right;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+.contact h3{
+    font-size:25px;
+}
+.contact p{
+    font-size:14px;
+}
+.receive_logo{
+
+    width:100%;
+    background-color:#0A329B;
+}
+.receive_logo img{
+    padding-top:5%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+   /**Media queries for DEFINE STYLE CONTAINER**/
+   @media screen and (max-width: 1421px) {
+    .call_to_action_text{
+     width:30%;
+     }
+   .call_to_action_text h1{
+     font-size:60px;
+     line-height:55px;
+    }
+    #computer{
+        width:80%;
+    }
+    .call_to_action_text h2{
+        font-size:16px;
+       }
+       .call_to_action_text p{
+        font-size:12px;
+        line-height:20px;
+       }
+    #middle_signup{
+        width:60%;
+    }
+    #computer {
+        margin-top:15%;
+      }
+  }
+   @media screen and (max-width: 1300px) {
+  
+    #middle_signup{
+        width:60%;
+    }
+  }
+  @media screen and (max-width: 1211px) {
+    .call_to_action_text  {
+      width:100%;
+    }
+    #middle_signup{
+        width:40%;
+    }
+    .define_style_block{
+        width:100%;
+        padding-top:0;
+  }
+  #computer{
+      margin-top:0;
+      margin-bottom:2%;
+  }
+}
+@media screen and (max-width: 600px) {
+    #middle_signup{
+        width:100%;
+    }
+#middle_signup:hover{
+    width:100%;
+}
+}
+@media screen and (max-width: 450px) {
+    .define_style_block{
+        display:none;
+  }
+   .call_to_action_text h1{
+    font-size:35px;
+    line-height:30px;
+    letter-spacing:2px;
+   }
+   .call_to_action_text h2{
+       font-size:16px;
+       width:100%;
+      }
+      .call_to_action_text p{
+       font-size:14px;
+       line-height:32px;
+
+      }
+}
+
+ /**Media queries for DEFINE STYLE CONTAINER**/
+ @media screen and (max-width: 1445px) {
+    #email_example_signup{
+     width:70%;
+     }
+     #email_example_signup:hover{
+        width:60%;
+        }
+ }
+ @media screen and (max-width: 980px) {
+    #email_example_signup{
+     width:90%;
+     }
+     #email_example_signup:hover{
+        width:80%;
+        }
+     #email_example_signup h4 {
+    font-size:16px;
+    padding:0px;
+ }
+ .email_example_text p{
+    font-size:14px;
+    line-height:38px;
+
+}
+.past_savings_text p{
+    font-size:14px;
+    line-height:32px;   
+}
+#many_more{
+    line-height:30px;
+}
+ }
+
+ @media screen and (max-width: 980px) {
+#email_example_signup{
+width:90%;
+ }
+#email_example_signup:hover{
+width:80%;
+ }
+ #email_example_signup h4 {
+font-size:16px;
+padding:0px;
+ }
+.email_example_text p{
+font-size:14px;
+line-height:38px;
+
+}
+.past_savings_text p{
+font-size:14px;
+line-height:32px;   
+}
+#many_more{
+line-height:30px;
+}
+ }
+
+ @media screen and (max-width: 850px) {
+    .past_savings{
+        flex-direction:column;
+    }
+    .email_example{
+        flex-direction:column-reverse;
+    }
+    .past_savings_text{
+        width:100%;
+        height:400px;
+        padding-left:0;
+    }
+    .savings_photos{
+        width:100%;
+    }
+    .email_example_photo{
+        width:100%;
+    }
+    .email_example_text{
+        width:100%;
+        height:400px;
+        padding-left:0;
+    }
+    .email_example_text_list{
+        padding-left:1%;
+    }
+    .past_savings_text_list{
+        padding-left:1%;
+    }
+    .email_example_text h2{
+        margin-bottom:0;
+        text-align:center;
+    }
+    .past_savings_text h2{
+        margin-bottom:0;
+        text-align:center;
+    }
+    #many_more{
+        line-height:30px;
+        font-size:50px;
+        letter-spacing: 3px;
+        text-align:center;
+        }
+ }
+ @media screen and (max-width: 395px) {
+ .past_savings_text{
+        width:100%;
+        height:500px;
+    }
+    .email_example_text{
+        width:100%;
+        height:500px;
+
+    }
+}
+
+ /**Hero**/
+ @media screen and (max-width: 1030px) {
+    .logo_text_home{
+     left:15%;
+ }
+}
+@media screen and (max-width: 700px) {
+    .logo_text_home{
+     left:0%;
+ }
+  nav li{
+     display:none;
+ }
+}
+@media screen and (max-width: 630px) {
+    #home_logo{
+     width:60%;
+ }
+}
+
+ /**bottom signup**/
+ @media screen and (max-width: 1160px) {
+    #bottom_hero_form{
+        width:60%;
+    }
+    #signup_text{
+        padding-left:1%;
+        padding-right:1%;
+        padding-top:15%
+    }
+    #signup_text h1{
+        font-size:50px;
+        line-height:50px;
+    }
+}
+/**footer**/
+@media screen and (max-width: 575px) {
+    .footer_logo img{
+        width:40%;
+        }
+        .footer_logo{
+        }
+        .contact h3{
+            float:none;
+        }
+        .contact p{
+            font-size:12px;
+        }
+    }
+  
